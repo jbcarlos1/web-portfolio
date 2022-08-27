@@ -150,6 +150,42 @@ h5 {
 	color: gray;
 }
 
+#experience {
+	height: 400px;
+	width: 500px;
+	background-color: rgba(44, 44, 108, 0.5);
+	color: white;
+	border-radius: 50px;
+	margin-bottom: 6rem;
+}
+
+#frontend {
+	color: #4db5ff;
+	font-size: 1.2rem;
+}
+
+#experience i {
+	color: #4db5ff;
+}
+
+#experience-2 {
+	height: 400px;
+	width: 500px;
+	background-color: rgba(44, 44, 108, 0.5);
+	color: white;
+	border-radius: 50px;
+	margin-bottom: 6rem;
+}
+
+#backend {
+	color: #4db5ff;
+	font-size: 1.2rem;
+}
+
+#experience-2 i {
+	color: #4db5ff;
+}
+
 
 
 
