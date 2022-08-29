@@ -73,6 +73,7 @@ body {
 }
 
 #about-me-paragraph {
+	font-size: 1.2rem;
 	margin-bottom: 6rem;
 }
 
@@ -83,6 +84,8 @@ h5 {
 }
 
 #navbar-container {
+	opacity: 0.7;
+
 }
 
 #navbar {
@@ -91,6 +94,7 @@ h5 {
 	position: fixed;
 	bottom: 50px;
 	z-index: 100;
+	background-color: black;
 
 }
 
@@ -144,7 +148,7 @@ h5 {
 #c-item {
 	height: 350px;
 	background-color: rgba(44, 44, 108, 0.5);
-	border-radius: 50px;
+	border-radius: 35px;
 	margin-bottom: 80px;
 }
 
@@ -173,7 +177,7 @@ h5 {
 #experience {
 	background-color: rgba(44, 44, 108, 0.5);
 	color: white;
-	border-radius: 30px;
+	border-radius: 27px;
 	margin-bottom: 2rem;
 }
 
@@ -261,6 +265,125 @@ h5 {
 #carousel-1 {
 	margin-bottom: 6rem;
 }
+
+#accordion-card {
+	border-radius: 0;
+}
+
+#projects {
+	height: 30rem;
+	max-width: 21rem;
+	border-radius: 40px;
+}
+
+#projects img {
+	height: 271px;
+	padding: 1.5rem;
+	border-radius: 45px;
+}
+
+#see-project {
+	width: 8rem;
+	height: 3rem;
+	background-color: #4db5ff;
+	border: 1px solid #4db5ff;
+	padding-top: 0.6rem;
+	padding-bottom: 0.5rem;
+	color: #1f1f38;
+	border-radius: 8px;
+	margin:0;
+}
+
+
+#see-project:hover {
+	opacity: 0.7;
+}
+
+#proj {
+	margin-bottom: 7rem;
+}
+
+iframe {
+	margin-bottom: 6rem;
+	filter: invert(100%);
+	opacity: 0.4;
+}
+
+@media only screen and (min-width: 300px) {
+	iframe {
+	width: 280px;
+	height: 280px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 350px) {
+	iframe {
+	width: 330px;
+	height: 330px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 400px) {
+	iframe {
+	width: 380px;
+	height: 380px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 450px) {
+	iframe {
+	width: 430px;
+	height: 430px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 500px) {
+	iframe {
+	width: 480px;
+	height: 480px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 550px) {
+	iframe {
+	width: 530px;
+	height: 500px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 600px) {
+	iframe {
+	width: 580px;
+	height: 500px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 820px) {
+	iframe {
+	width: 620px;
+	height: 500px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+@media only screen and (min-width: 1920px) {
+	iframe {
+	width: 890px;
+	height: 500px;
+	border-radius: 30px;
+	/*filter: grayscale(100%);*/
+}
+
+
+
+
 
 
 
